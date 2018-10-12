@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Circular Std;
+    src: url(Font/CircularStd-Book.woff);
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+html {
+	font-family: Circular Std, sans-serif;
+}
+.landing, .features, .groups {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	min-height: 600px;
+}
+.features, .groups {	
+	position: relative;
+}
+.landing {
+	background-image: url('../images/bg_01.png');
+}
+.features {
+	background-image: url('../images/bg_02.png');
+}
+.groups {
+	background-image: url('../images/bg_03.png');
+}
+h1 {
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 18px;
+	font-weight: 100;
+	margin-bottom: 20px;
+	opacity: 0.8;
+}
+a {
+	font-size: 16px;
+}
+.btnOne, .btnTwo {
+	border-radius: 100px;
+	padding: 0.6em 1.75em;
+}
+.btnOne {
+	border: white 2px solid;
+}
+.btnTwo, .logo {
+	width: 160px;
+}
+.btnTwo {
+	background-color: #1F2122;
+	display: block;
+	margin-top: 40px;
+	text-align: center;
+}
+.nav {
+	padding-top: 3em;
+}
+.pages {
+	float: right;
+	text-align: right;
+}
+.pages a, .logo {
+	vertical-align: middle;
+}
+.pages a {
+	text-decoration: none;
+	color: #FFF;
+	margin-left: 25px;
+}
+.landing-wrapper {
+	width: 88%;
+	margin: auto;
+}
+.landing-content {
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+.content-left {
+	flex: 0 0 55%;
+}
+.content-right {
+	flex: 0 0 45%;
+}
+.iphoneHand {
+	width: 420px;
+	margin-top: -55px;
+}
+.content-left h1, .content-left p, .content-left a {
+	color: #FFF;
+	text-decoration: none;
+}
+.date {
+	position: absolute;
+	top: 150px;
+	left: 11%;
+}
+.time {
+	position: absolute;
+	bottom: 90px;
+	right: 15%;
+}
+.date h1, .date img, .time h1, .time img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.date img, .time img {
+	margin-bottom: 10px;
+	width: 36px
+}
+.date p, .time p {
+	display: block;
+	margin-left: 44px;
+}
+.groups {
+	width: 88%;
+	margin: auto;
+}
+.groups-content {
+	width: 88%;
+	margin: 150px auto 0 auto;
+	display: flex;
+}
+.content-left h1, .content-left img {
+	display: inline-block;
+	vertical-align: middle;
+}
+.content-left img {
+	margin-bottom: 10px;
+	width: 36px
+}
+.groups-content> .content-left p {
+	margin-left: 50px;
+}
+.groupImg {
+	width: 500px;
+	margin-top: -50px;
+}
+.footer {
+	width: 70%;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate(-50px);
+	-webkit-transform: translate(-50px);
+}
+.footer p {
+	color: #454D4E;
+	display: inline-block;
+}
+.pages-right {
+	margin-left: 25px;
+}
